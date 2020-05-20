@@ -1,4 +1,7 @@
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
+import 'package:fancy_navigation_bar/FoodyCart.dart';
+import 'package:fancy_navigation_bar/Home.dart';
+import 'package:fancy_navigation_bar/Weather.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -8,7 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int currentPage=0;
-  final pageState=[Home(),Weather(),FoodyCart()]
+  final pageState=[Home(),Weather(),FoodyCart()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
