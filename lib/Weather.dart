@@ -5,7 +5,7 @@ class Weather extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Text("weather Page",
+        child: Text("Weather Page",
           style: TextStyle(
             color: Colors.deepPurpleAccent,
             fontSize: 20.0,
