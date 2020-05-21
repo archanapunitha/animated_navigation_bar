@@ -25,6 +25,8 @@ class _HomePageState extends State<HomePage> {
           TabData(iconData: Icons.home,title: "Home"),
           TabData(iconData: Icons.wb_sunny,title: "Weather"),
           TabData(iconData: Icons.fastfood,title: "Foody Cart"),
+          TabData(iconData: Icons.search,title: "search"),
+          TabData(iconData: Icons.account_circle,title: "Account")
         ],
         onTabChangedListener: (int position){
           setState(() {
